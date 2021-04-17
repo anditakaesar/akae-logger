@@ -1,7 +1,7 @@
 import winston, { format } from 'winston'
 import moment from 'moment'
-import env from './env'
-import { FORMATS } from './constants'
+import env from '../env'
+import { FORMATS } from '../constants'
 import _ from 'lodash'
 
 const formatDate = require('date-format')
